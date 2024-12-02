@@ -1,22 +1,3 @@
-# import os
-# from yt_dlp import YoutubeDL
-#
-# link = input("Enter YouTube Playlist URL: ✨")
-#
-# folder_name = input("Enter folder name to save videos: ")
-# os.makedirs(folder_name, exist_ok=True)
-#
-# options = {
-#     'outtmpl': os.path.join(folder_name, '%(playlist_index)s - %(title)s.%(ext)s'),
-#     'format': 'best',
-#     'noplaylist': False,
-#     'socket_timeout': 30,
-#     'retries': 5,
-# }
-#
-# with YoutubeDL(options) as ydl:
-#     ydl.download([link])
-
 import os
 from yt_dlp import YoutubeDL
 
